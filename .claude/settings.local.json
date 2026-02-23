@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx react-scripts build)",
+      "Bash(npx react-scripts test --watchAll=false)",
+      "Bash(npx react-scripts test --watchAll=false --testPathIgnorePatterns=/node_modules/)",
+      "Bash(npx react-scripts test --watchAll=false --verbose --roots=\"./src\")",
+      "Bash(npx react-scripts test --watchAll=false --testPathIgnorePatterns=\"[]\" --verbose)",
+      "Bash(npx react-scripts test --watchAll=false --testMatch=\"**/src/**/*.test.tsx\")",
+      "Bash(npm run build:*)",
+      "Bash(wc:*)",
+      "Bash(\"/c/Users/olive/OneDrive/Documents/ProyectsProgramming/Gym plan/gym/.claude/worktrees/heuristic-golick/src/types/ai.ts\":*)",
+      "Bash(\"/c/Users/olive/OneDrive/Documents/ProyectsProgramming/Gym plan/gym/.claude/worktrees/heuristic-golick/src/utils/ai-client.ts\":*)",
+      "Bash(\"/c/Users/olive/OneDrive/Documents/ProyectsProgramming/Gym plan/gym/.claude/worktrees/heuristic-golick/src/types/index.ts\":*)",
+      "WebFetch(domain:exercisedb.dev)",
+      "WebFetch(domain:exercisedbv2.ascendapi.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:exercisedb.p.rapidapi.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(node scripts/fetch-exercises.mjs:*)",
+      "Bash(\"C:/Users/olive/OneDrive/Documents/ProyectsProgramming/Gym plan/gym/.claude/worktrees/heuristic-golick/src/types/exercise.ts\":*)",
+      "WebFetch(domain:www.themealdb.com)",
+      "Bash(node scripts/fetch-meals.mjs:*)",
+      "Bash(node scripts/generate-icons.mjs:*)"
+    ]
+  }
+}
